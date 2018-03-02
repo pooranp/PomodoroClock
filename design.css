@@ -12,10 +12,18 @@ body {
   outline: none;
 }
 
+#restBox, #workBox {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
 #restBox {
 	float: left;
+	clear: right;
 }
 
 #workBox {
 	float: right;
 }
+
