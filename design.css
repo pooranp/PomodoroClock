@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+.btn {
+  background: lightgrey;
+  border: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#restBox {
+	float: left;
+}
+
+#workBox {
+	float: right;
+}
