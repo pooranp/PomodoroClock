@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-image: url("HourglassWallpaper.jpg");
+  background: black url("HourglassWallpaper.jpg") no-repeat center fixed;
+  color: white;
 }
 
 .btn {
