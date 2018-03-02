@@ -61,7 +61,7 @@ $('#reset').click(function() {
    $('#timeType').html('Work').show();
    $('#workBox').show();
    $('#restCount').hide();
-    var countSeconds = setInterval(countdown1, 1000);
+    var countSeconds = setInterval(countdown1, 100);
 	  workTime *= 60;
     function countdown1() {
       workTime -= 1;
@@ -69,7 +69,7 @@ $('#reset').click(function() {
 		  alarm.play();
         $('#workBox').hide();
           clearInterval(countSeconds);
-		  var startRest = setInterval(restTimer, 1000);
+		  var startRest = setInterval(restTimer, 100);
 		  restTime *= 60; 
       };
 		if(workTime%60>=10) {
