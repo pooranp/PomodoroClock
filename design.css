@@ -1,16 +1,15 @@
-body {
-  text-align: center;
-  background: black url("http://s3.amazonaws.com/logware/wp-content/uploads/2016/11/04150633/Time.jpg") no-repeat center fixed;
-	background-size: cover;
+body{
+  background-image: url("https://stmed.net/sites/default/files/clock-wallpapers-28517-1470945.png");
+  background-size:100%;
+  background-attachment: fixed;
   color: white;
+  font-family: "Montserrat";
 }
 
-.btn {
-  background: lightgrey;
-  border: none;
+h2{
+  display:inline;
 }
 
-.btn:focus {
-  box-shadow: none;
-  outline: none;
+#start{
+  margin:10px;
 }
