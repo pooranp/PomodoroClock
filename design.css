@@ -2,13 +2,18 @@ body{
   background-image: url("https://stmed.net/sites/default/files/clock-wallpapers-28517-1470945.png");
   background-size:100%;
   background-attachment: fixed;
-  color: rgb(0,0,0);
+  color: white;
   font-family: "Montserrat";
   text-align: center;
 }
 
+h1{
+  color: white;
+}
+
 h2{
   display:inline;
+  color: white;
 }
 
 #start{
